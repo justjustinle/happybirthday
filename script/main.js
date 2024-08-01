@@ -96,7 +96,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=2"
+      "+=3"
     )
     .to(
       ".three",
@@ -107,43 +107,6 @@ const animationTimeline = () => {
       },
       "-=1"
     )
-    .from(".threepointfive", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".threepointfive",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      })
-
-      .to(
-      ".three",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "-=1"
-    )
-    .from(".threepointfive", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".threepointfive",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
-      "+=2"
     
     .from(".four", 0.7, {
       scale: 0.2,
