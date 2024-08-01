@@ -144,7 +144,7 @@ const animationTimeline = () => {
       "+=2"
     )
       "+=2"
-    )
+    
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0
