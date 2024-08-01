@@ -121,7 +121,7 @@ const animationTimeline = () => {
       })
 
       .to(
-      ".two",
+      ".three",
       0.7,
       {
         opacity: 0,
