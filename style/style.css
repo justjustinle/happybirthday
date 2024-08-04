@@ -279,10 +279,7 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
-    width: 50px;
-    top: -20px;
-  }
+  .six 
 
   .wish-hbd {
     font-size: 2.2em;
@@ -400,13 +397,3 @@ body {
   }
 }
 
-.text {
-  color: #8b6a60;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-style:italic;
-  text-align: center;
-  h1 {
-    font-size: 1.4em;
-  }
-}

@@ -209,14 +209,14 @@ const animationTimeline = () => {
       0.2
     )
     .from(
-      ".lydia-dp",
+      ".cake",
       0.5,
       {
         scale: 3.5,
         opacity: 0,
         x: 25,
         y: -25,
-        rotationZ: -45
+      
       },
       "-=2"
     )
@@ -226,6 +226,21 @@ const animationTimeline = () => {
       rotation: -180,
       opacity: 0
     })
+
+    .from(".fire", 0.5, {
+      x: -100,
+      y: 350,
+      rotation: -180,
+      opacity: 0
+    })
+    
+    .from(".fuego", 0.5, {
+      x: -100,
+      y: 350,
+      rotation: -180,
+      opacity: 0
+    })
+
     .staggerFrom(
       ".wish-hbd span",
       0.7,
