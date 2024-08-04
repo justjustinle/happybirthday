@@ -57,10 +57,6 @@ body {
   font-size: 3rem;
 }
 
-.threepointfive {
-  font-size: 3rem;
-}
-
 .four .text-box {
   width: 600px;
   margin: 0 auto;
@@ -134,20 +130,20 @@ body {
   /* transform: scale(0.1); */
 }
 
-.hearts img {
+.baloons img {
   display: inline-block;
   position: absolute;
 }
 
-.hearts img:nth-child(even) {
+.baloons img:nth-child(even) {
   left: -10%;
 }
 
-.hearts img:nth-child(odd) {
+.baloons img:nth-child(odd) {
   right: -10%;
 }
 
-.hearts img:nth-child(3n + 0) {
+.baloons img:nth-child(3n + 0) {
   left: 30%;
 }
 
