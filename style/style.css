@@ -124,20 +124,20 @@ body {
 
 .six 
 
-.hearts img {
+.hearts {
   display: inline-block;
   position: absolute;
 }
 
-.hearts img:nth-child(even) {
+.hearts :nth-child(even) {
   left: -10%;
 }
 
-.hearts img:nth-child(odd) {
+.hearts :nth-child(odd) {
   right: -10%;
 }
 
-.hearts img:nth-child(3n + 0) {
+.hearts :nth-child(3n + 0) {
   left: 30%;
 }
 
@@ -303,7 +303,8 @@ body {
 
 #cake {
   display: block;
-  position: relative;
+  position: absolute;
+  top: 220px;
   margin: -10em auto 0 auto;
 }
 
