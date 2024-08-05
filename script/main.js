@@ -196,7 +196,7 @@ const animationTimeline = () => {
       "+=1"
     )
     .staggerFromTo(
-      ".hearts img",
+      ".hearts",
       2.5,
       {
         opacity: 0.9,
