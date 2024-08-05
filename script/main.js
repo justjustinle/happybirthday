@@ -196,7 +196,7 @@ const animationTimeline = () => {
       "+=1"
     )
     .staggerFromTo(
-      ".baloons img",
+      ".hearts img",
       2.5,
       {
         opacity: 0.9,
@@ -208,6 +208,7 @@ const animationTimeline = () => {
       },
       0.2
     )
+
     .from(
       ".cake",
       0.5,
@@ -215,7 +216,7 @@ const animationTimeline = () => {
         scale: 3.5,
         opacity: 0,
         x: 25,
-        y: -25,
+        y: 300,
       
       },
       "-=2"

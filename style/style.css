@@ -122,28 +122,22 @@ body {
   height: auto;
 }
 
-.six .hat {
-  position: absolute;
-  width: 80px;
-  top: -35px;
-  left: 41.5%;
-  /* transform: scale(0.1); */
-}
+.six 
 
-.baloons img {
+.hearts img {
   display: inline-block;
   position: absolute;
 }
 
-.baloons img:nth-child(even) {
+.hearts img:nth-child(even) {
   left: -10%;
 }
 
-.baloons img:nth-child(odd) {
+.hearts img:nth-child(odd) {
   right: -10%;
 }
 
-.baloons img:nth-child(3n + 0) {
+.hearts img:nth-child(3n + 0) {
   left: 30%;
 }
 
@@ -363,7 +357,7 @@ body {
   animation: fuego 2s 6.5s infinite;
 }
 .fire:nth-child(2) {
-  animation: fuego 1.5s 6.5s infinite;
+  animation: fuego 1.5s 6.5s infinite; 
 }
 .fire:nth-child(3) {
   animation: fuego 1s 6.5s infinite;
