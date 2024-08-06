@@ -210,7 +210,7 @@ const animationTimeline = () => {
     )
 
     .from(
-      ".cake",
+      ". ",
       0.5,
       {
         scale: 3.5,
