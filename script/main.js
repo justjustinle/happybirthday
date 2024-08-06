@@ -154,15 +154,7 @@ const animationTimeline = () => {
       },
       "+=0.5"
     )
-    .to(
-      ".idea-5 .smiley",
-      0.7,
-      {
-        rotation: -90,
-        x: 8
-      },
-      "+=0.4"
-    )
+  
     .to(
       ".idea-5",
       0.7,
