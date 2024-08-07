@@ -309,8 +309,10 @@ body {
 }
 
 .six .babe {
-  position: center;
-  top: 100px;
+  display:block;
+  position: absolute;
+  left:50%;
+  top: 50px;
   width: 250px;
   height: 250px;
 }

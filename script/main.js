@@ -304,7 +304,7 @@ const animationTimeline = () => {
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
 
-    .to(".nine iframe", {
+    .to(".nine iframe", 5, {
       opacity: 0,
       y: 30,
       zIndex: "-1"
