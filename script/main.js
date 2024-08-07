@@ -293,18 +293,7 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
     .staggerFrom(".outroText", 1, ideaTextTrans, 1.2)
-    .staggerTo(
-      ".outroText",
-      1.5,
-      {
-        visibility: "visible",
-        opacity: 0,
-        scale: 80,
-        repeat: 3,
-        repeatDelay: 1.4
-      },
-      0.3
-    )
+    
     .staggerFrom(
       ".song", 
       0.7,
