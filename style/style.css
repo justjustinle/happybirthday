@@ -308,12 +308,9 @@ body {
   margin: -10em auto 0 auto;
 }
 
-#babe {
+#song {
   display: block;
-  size: 200px;
-  position: absolute;
-  top: 50px;
- 
+  position: relative auto;
 }
 /* ============================================== Candle
 */
