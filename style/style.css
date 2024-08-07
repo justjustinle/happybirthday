@@ -308,11 +308,10 @@ body {
   margin: -10em auto 0 auto;
 }
 
-.six .babe {
-  display:block;
+#babe {
+  display: block;
   position: absolute;
-  top: 1px;
-  left: center;
+  top: 50px;
   width: 250px;
   height: 250px;
 }
