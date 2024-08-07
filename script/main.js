@@ -201,7 +201,20 @@ const animationTimeline = () => {
     )
 
     .from(
-      ".cake .babe",
+      ".cake",
+      0.5,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 25,
+        y: 300,
+      
+      },
+      
+    )
+    
+    .from(
+      ".babe",
       0.5,
       {
         scale: 3.5,
@@ -289,9 +302,12 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p , .nine song", 1, ideaTextTrans, 1.2)
-    
-
+    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .to(".nine song",
+    {
+      
+    },
+  )
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
