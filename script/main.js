@@ -30,6 +30,7 @@ const animationTimeline = () => {
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
   const song = document.getElementsByClassName("song")[0];
+  const outroText = document.getElementsByClassName("outroText")[0];
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
