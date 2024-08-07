@@ -302,13 +302,13 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine iframe", 1, ideaTextTrans, 1.2)
 
-    .to(".nine iframe", 5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    // .to(".nine iframe", 5, {
+    //   opacity: 0,
+    //   y: 30,
+    //   zIndex: "-1"
+    // })
     
   
   // tl.seek("currentStep");
