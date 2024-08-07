@@ -29,6 +29,7 @@ const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
+  const song = document.getElementsByClassName("song")[0];
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
@@ -303,14 +304,20 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
     .staggerFrom(".nine iframe", 1, ideaTextTrans, 1.2)
-
-    // .to(".nine iframe", 5, {
-    //   opacity: 0,
-    //   y: 30,
-    //   zIndex: "-1"
-    // })
+    .staggerFrom(
+      ".song", 
+      0.7,
+      {
+        opacity: 0,
+        y: -50,
+        // scale: 0.3,
+        rotation: 150,
+        skewX: "30deg",
+        ease: Elastic.easeOut.config(1, 0.5)
+      },
+      0.1
+    )
     
-  
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
