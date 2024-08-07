@@ -309,10 +309,10 @@ body {
 }
 
 .six .babe {
-  position: absolute;
+  position: center;
   top: 200px;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 }
 /* ============================================== Candle
 */

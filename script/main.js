@@ -303,7 +303,7 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-    .to(".nine song",
+    .to(".nine .song",
     {
       
     },
