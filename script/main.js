@@ -304,7 +304,7 @@ const animationTimeline = () => {
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
 
-    .staggerFrom(".nine .song",
+    .from(".nine .song",
     
   )
   // tl.seek("currentStep");
