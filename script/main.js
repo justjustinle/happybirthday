@@ -214,17 +214,6 @@ const animationTimeline = () => {
       
     )
     
-    .from(
-      ".babe",
-      0.5,
-      {
-        scale: 3.5,
-        opacity: 0,
-        x: 25,
-        y: 300,
-      
-      },
-    )
     .from(".candles", 0.5, {
       x: -100,
       y: 350,
