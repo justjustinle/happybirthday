@@ -77,7 +77,7 @@ const animationTimeline = () => {
     )
     .to(
       ".two",
-      10,
+      0.7,
       {
         opacity: 0,
         y: 10
@@ -153,15 +153,6 @@ const animationTimeline = () => {
         opacity: 0
       },
       "+=0.5"
-    )
-    .to(
-      ".idea-5 .smiley",
-      0.7,
-      {
-        rotation: -90,
-        x: 8
-      },
-      "+=0.4"
     )
     .to(
       ".idea-5",
@@ -299,16 +290,9 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    
     .to(
-      ".last-smile",
-      0.5,
-      {
-        rotation: 90
-      },
-      "+=1"
-    )
-    .to(
-      ".nine iframe"
+      ".song"
     );
 
   // tl.seek("currentStep");
