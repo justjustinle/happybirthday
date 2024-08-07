@@ -303,10 +303,9 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-    .to(".nine .song",
-    {
-      
-    },
+
+    .staggerFrom(".nine .song",
+    
   )
   // tl.seek("currentStep");
   // tl.timeScale(2);
