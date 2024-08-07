@@ -303,7 +303,19 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine outroText", 1, ideaTextTrans, 1.2)
+    .staggerTo(
+      ".nine outroText",
+      1.5,
+      {
+        visibility: "visible",
+        opacity: 0,
+        scale: 80,
+        repeat: 3,
+        repeatDelay: 1.4
+      },
+      0.3
+    )
     .staggerFrom(
       ".song", 
       0.7,
