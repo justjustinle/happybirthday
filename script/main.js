@@ -77,21 +77,21 @@ const animationTimeline = () => {
     )
     .to(
       ".two",
-      0.7,
+      2,
       {
         opacity: 0,
         y: 10
       },
       "-=1"
     )
-    .from(".three", 0.7, {
+    .from(".three", 1, {
       opacity: 0,
       y: 10
       // scale: 0.7
     })
     .to(
       ".three",
-      0.7,
+      2,
       {
         opacity: 0,
         y: 10
@@ -154,7 +154,15 @@ const animationTimeline = () => {
       },
       "+=0.5"
     )
-  
+    .to(
+      ".idea-5 .smiley",
+      0.7,
+      {
+        rotation: -90,
+        x: 8
+      },
+      "+=0.4"
+    )
     .to(
       ".idea-5",
       0.7,
