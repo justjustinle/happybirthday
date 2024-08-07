@@ -30,7 +30,6 @@ const animationTimeline = () => {
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
   const song = document.getElementsByClassName("song")[0];
-  
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
@@ -292,18 +291,19 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-
-    // .from(".nine line1", 0.7, ideaTextTrans)
-    // .to(".nine line1", 0.7, ideaTextTransLeave, "+=1.5")
-    // .from(".nine line2", 0.7, ideaTextTrans)
-    // .to(".nine line2", 0.7, ideaTextTransLeave, "+=1.5")
-    // .from(".nine line3", 0.7, ideaTextTrans)
-    // .to(".nine line3", 0.7, ideaTextTransLeave, "+=1.5")
-    // .from(".nine line4", 0.7, ideaTextTrans)
-    // .to(".nine line4", 0.7, ideaTextTransLeave, "+=1.5")
-    // .from(".nine line5", 0.7, ideaTextTrans)
-    // .to(".nine line5", 0.7, ideaTextTransLeave, "+=1.5")
-    
+    .staggerFrom(".nine outroText", 1, ideaTextTrans, 1.2)
+    .staggerTo(
+      ".nine outroText",
+      1.5,
+      {
+        visibility: "visible",
+        opacity: 0,
+        scale: 80,
+        repeat: 3,
+        repeatDelay: 1.4
+      },
+      0.3
+    )
     .staggerFrom(
       ".song", 
       0.7,
