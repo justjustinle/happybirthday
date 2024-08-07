@@ -292,19 +292,16 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine outroText", 1, ideaTextTrans, 1.2)
-    .staggerTo(
-      ".nine outroText",
-      1.5,
-      {
-        visibility: "visible",
-        opacity: 0,
-        scale: 80,
-        repeat: 3,
-        repeatDelay: 1.4
-      },
-      0.3
-    )
+    .from(".line1", 0.7, ideaTextTrans)
+    .to(".line1", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".line2", 0.7, ideaTextTrans)
+    .to(".line2", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".line3", 0.7, ideaTextTrans)
+    .to(".line3", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".line4", 0.7, ideaTextTrans)
+    .to(".line4", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".line5", 0.7, ideaTextTrans)
+    .to(".line5", 0.7, ideaTextTransLeave, "+=1.5")
     .staggerFrom(
       ".song", 
       0.7,
