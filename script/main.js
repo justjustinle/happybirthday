@@ -293,16 +293,16 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
 
-    .from(".nine line1", 0.7, ideaTextTrans)
-    .to(".nine line1", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".nine line2", 0.7, ideaTextTrans)
-    .to(".nine line2", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".nine line3", 0.7, ideaTextTrans)
-    .to(".nine line3", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".nine line4", 0.7, ideaTextTrans)
-    .to(".nine line4", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".nine line5", 0.7, ideaTextTrans)
-    .to(".nine line5", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(".nine line1", 0.7, ideaTextTrans)
+    // .to(".nine line1", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(".nine line2", 0.7, ideaTextTrans)
+    // .to(".nine line2", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(".nine line3", 0.7, ideaTextTrans)
+    // .to(".nine line3", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(".nine line4", 0.7, ideaTextTrans)
+    // .to(".nine line4", 0.7, ideaTextTransLeave, "+=1.5")
+    // .from(".nine line5", 0.7, ideaTextTrans)
+    // .to(".nine line5", 0.7, ideaTextTransLeave, "+=1.5")
     
     .staggerFrom(
       ".song", 
