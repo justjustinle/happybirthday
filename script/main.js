@@ -30,6 +30,7 @@ const animationTimeline = () => {
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
   const song = document.getElementsByClassName("song")[0];
+  const outroText = document.getElementsByClassName("outrotext")[0];
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
@@ -291,9 +292,9 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine outroText", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".outroText", 1, ideaTextTrans, 1.2)
     .staggerTo(
-      ".nine outroText",
+      ".outroText",
       1.5,
       {
         visibility: "visible",
