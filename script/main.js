@@ -224,7 +224,6 @@ const animationTimeline = () => {
         y: 300,
       
       },
-      
     )
     .from(".candles", 0.5, {
       x: -100,
