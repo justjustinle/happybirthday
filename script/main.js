@@ -292,9 +292,9 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".outroText", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine outroText", 1, ideaTextTrans, 1.2)
     .staggerTo(
-      ".outroText",
+      ".nine outroText",
       1.5,
       {
         visibility: "visible",
