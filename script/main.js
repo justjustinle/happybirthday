@@ -84,14 +84,14 @@ const animationTimeline = () => {
       },
       "-=1"
     )
-    .from(".three", 10, {
+    .from(".three", 0.7, {
       opacity: 0,
       y: 10
       // scale: 0.7
     })
     .to(
       ".three",
-      10,
+      0.7,
       {
         opacity: 0,
         y: 10
@@ -306,6 +306,9 @@ const animationTimeline = () => {
         rotation: 90
       },
       "+=1"
+    )
+    .to(
+      ".nine iframe"
     );
 
   // tl.seek("currentStep");
