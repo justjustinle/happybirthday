@@ -310,8 +310,8 @@ body {
 
 #song {
   display: block;
-  position: relative auto;
-  top:200px;
+  position: relative;
+  
 }
 /* ============================================== Candle
 */
